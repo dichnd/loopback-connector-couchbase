@@ -55,7 +55,7 @@ Step 5: Before issuing queries against a Couchbase bucket, run the following com
 ### Installing the connector
 ```npm install couchbase```
 
-```npm install loopback-connector-couchbase```
+```npm install loopback-connector-couchbase-mappingport```
 
 
 ## Connector settings
@@ -67,6 +67,8 @@ The connector can be configured using the following settings from the data sourc
 * database: The Couchbase bucket
 * connectionTimeout (default to 20000): The connection timeout value
 * operationTimeout (default to 15000): The operation timeout value
+* memport (default to 11210): The port number to connect to memcache server
+* mappingPort (default to false): whether enable mapping port - in case server not use default ports
 
 **NOTE**: Unlike other datasources, Couchbase does not require user credentials to access a bucket/database.  Buckets can be protected with a password, however, the N1QL Developer Pre-release 3 currently does not support querying password protected buckets.  As this capability is released for N1QL, we will update the connector settings.
 

@@ -1,6 +1,6 @@
 {
-  "name": "loopback-connector-couchbase",
-  "version": "1.0.5",
+  "name": "loopback-connector-couchbase-mappingport",
+  "version": "1.0.1",
   "description": "LoopBack Couchbase Connector",
   "keywords": [
     "StrongLoop",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/guardly/loopback-connector-couchbase.git"
+    "url": "https://github.com/dichnd/loopback-connector-couchbase.git"
   },
   "dependencies": {
     "async": "~0.9.0",
-    "couchbase": "2.0.1",
+    "couchbase": "2.3.3",
     "debug": "1.0.4",
     "loopback": "2.8.6",
     "loopback-connector": "1.2.0",
@@ -35,21 +35,13 @@
     "url": "https://github.com/guardly/loopback-connector-couchbase/blob/master/LICENSE.md"
   },
   "bugs": {
-    "url": "https://github.com/guardly/loopback-connector-couchbase/issues"
+    "url": "https://github.com/dichnd/loopback-connector-couchbase/issues"
   },
-  "homepage": "https://github.com/guardly/loopback-connector-couchbase",
+  "homepage": "https://github.com/dichnd/loopback-connector-couchbase",
   "maintainers": [
     {
-      "name": "ecguardly",
-      "email": "eric@guardly.com"
-    },
-    {
-      "name": "nolandubeau",
-      "email": "nolan@guardly.com"
-    },
-    {
-      "name": "jbroughton72",
-      "email": "jason@guardly.com"
+      "name": "dinh.dich",
+      "email": "dichnd2806@gmail.com"
     }
   ]
 }
